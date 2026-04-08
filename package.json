@@ -1,0 +1,34 @@
+{
+  "name": "@openclaw/graph-editor",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Admin graph editor and context editor UI components",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.js"
+    }
+  },
+  "files": ["dist"],
+  "scripts": {
+    "build": "tsup"
+  },
+  "dependencies": {
+    "@openclaw/graph-engine": "file:../graph-engine"
+  },
+  "peerDependencies": {
+    "next": ">=14",
+    "react": ">=18",
+    "react-dom": ">=18"
+  },
+  "devDependencies": {
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "tsup": "^8.0.0",
+    "typescript": "^5.0.0"
+  }
+}
