@@ -1,8 +1,8 @@
 'use client'
 
 import { useState, useEffect, useRef, useCallback } from 'react'
-import type { GraphJSON, GraphNode, GraphEdge, NodeType, QuestionType } from '@openclaw/graph-engine'
-import { normalizeGraphPorts, slugify } from '@openclaw/graph-engine'
+import type { GraphJSON, GraphNode, GraphEdge, NodeType, QuestionType } from '@gottwik/graphait'
+import { normalizeGraphPorts, slugify } from '@gottwik/graphait'
 import GraphChat from './GraphChat'
 
 export interface GraphEditorEndpoints {

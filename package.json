@@ -1,5 +1,5 @@
 {
-  "name": "@openclaw/graph-editor",
+  "name": "@gottwik/graphait-ui",
   "version": "1.0.0",
   "private": true,
   "description": "Admin graph editor and context editor UI components",
@@ -18,7 +18,7 @@
     "build": "tsup"
   },
   "dependencies": {
-    "@openclaw/graph-engine": "file:../graph-engine"
+    "@gottwik/graphait": "file:../graphait"
   },
   "peerDependencies": {
     "next": ">=14",

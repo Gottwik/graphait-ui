@@ -1,7 +1,7 @@
 'use client'
 
 import { useState, useRef, useEffect } from 'react'
-import type { GraphJSON } from '@openclaw/graph-engine'
+import type { GraphJSON } from '@gottwik/graphait'
 
 interface ChatMessage {
   role: 'user' | 'assistant'
