@@ -18,7 +18,7 @@
     "build": "tsup"
   },
   "dependencies": {
-    "@gottwik/graphait": "file:../graphait"
+    "@gottwik/graphait": "github:Gottwik/graphait#v1.0.0"
   },
   "peerDependencies": {
     "next": ">=14",
